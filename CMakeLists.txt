@@ -4,8 +4,8 @@ PROJECT(3DPlatformer)
 add_subdirectory("${PROJECT_SOURCE_DIR}/lib/irrlicht")
 include_directories("${PROJECT_SOURCE_DIR}/lib/irrlicht/include")
 
-FILE(GLOB SRCS src/*.cpp)
+target_link_libraries(3DPirrlicht)
 
-ADD_EXECUTABLE(3DPlatformer
-   ${SRCS}
-)
+FILE(GLOB SRCS src/*)
+
+ADD_EXECUTABLE(3DPlatformer ${SRCS})

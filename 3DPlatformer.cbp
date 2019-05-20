@@ -1,0 +1,2195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="3DPlatformer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\irrlicht\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/finian/Documents/git/3DPlatformer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/finian/Documents/git/3DPlatformer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3DPlatformer">
+				<Option output="/home/finian/Documents/git/3DPlatformer/3DPlatformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/finian/Documents/git/3DPlatformer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/Makefile&quot;  VERBOSE=1 3DPlatformer"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3DPlatformer/fast">
+				<Option output="/home/finian/Documents/git/3DPlatformer/3DPlatformer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/finian/Documents/git/3DPlatformer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/Makefile&quot;  VERBOSE=1 3DPlatformer/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/finian/Documents/git/3DPlatformer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3DPirrlicht">
+				<Option output="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/lib3DPirrlicht.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/finian/Documents/git/3DPlatformer/lib/irrlicht"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNDEBUG=1"/>
+					<Add option="-DIRRLICHT_EXPORTS=1"/>
+					<Add option="-DPNG_THREAD_UNSAFE_OK"/>
+					<Add option="-DPNG_NO_MMX_CODE"/>
+					<Add option="-DPNG_NO_MNG_FEATURES"/>
+					<Add directory="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/lib/irrlicht/Makefile&quot;  VERBOSE=1 3DPirrlicht"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/lib/irrlicht/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/lib/irrlicht/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/lib/irrlicht/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3DPirrlicht/fast">
+				<Option output="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/lib3DPirrlicht.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/finian/Documents/git/3DPlatformer/lib/irrlicht"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNDEBUG=1"/>
+					<Add option="-DIRRLICHT_EXPORTS=1"/>
+					<Add option="-DPNG_THREAD_UNSAFE_OK"/>
+					<Add option="-DPNG_NO_MMX_CODE"/>
+					<Add option="-DPNG_NO_MNG_FEATURES"/>
+					<Add directory="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/lib/irrlicht/Makefile&quot;  VERBOSE=1 3DPirrlicht/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/lib/irrlicht/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/lib/irrlicht/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/finian/Documents/git/3DPlatformer/lib/irrlicht/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/CDynamicMeshBuffer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/CIndexBuffer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/CMeshBuffer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/CVertexBuffer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/EAttributes.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ECullingTypes.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/EDebugSceneTypes.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/EDeviceTypes.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/EDriverFeatures.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/EDriverTypes.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/EFocusFlags.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/EGUIAlignment.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/EGUIElementTypes.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/EHardwareBufferFlags.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/EMaterialFlags.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/EMaterialTypes.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/EMeshWriterEnums.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/EMessageBoxFlags.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/EPrimitiveTypes.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/EReadFileType.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ESceneNodeAnimatorTypes.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ESceneNodeTypes.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/EShaderTypes.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ETerrainElements.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IAnimatedMesh.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IAnimatedMeshMD2.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IAnimatedMeshMD3.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IAnimatedMeshSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IAttributeExchangingObject.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IAttributes.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IBillboardSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IBillboardTextSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IBoneSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ICameraSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IColladaMeshWriter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IContextManager.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ICursorControl.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IDummyTransformationSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IDynamicMeshBuffer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IEventReceiver.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IFileArchive.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IFileList.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IFileSystem.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGPUProgrammingServices.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUIButton.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUICheckBox.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUIColorSelectDialog.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUIComboBox.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUIContextMenu.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUIEditBox.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUIElement.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUIElementFactory.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUIEnvironment.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUIFileOpenDialog.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUIFont.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUIFontBitmap.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUIImage.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUIImageList.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUIInOutFader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUIListBox.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUIMeshViewer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUIProfiler.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUIScrollBar.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUISkin.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUISpinBox.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUISpriteBank.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUIStaticText.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUITabControl.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUITable.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUIToolbar.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUITreeView.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGUIWindow.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IGeometryCreator.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IImage.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IImageLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IImageWriter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IIndexBuffer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ILightManager.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ILightSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ILogger.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IMaterialRenderer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IMaterialRendererServices.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IMemoryReadFile.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IMesh.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IMeshBuffer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IMeshCache.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IMeshLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IMeshManipulator.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IMeshSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IMeshTextureLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IMeshWriter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IMetaTriangleSelector.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IOSOperator.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IOctreeSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IParticleAffector.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IParticleAnimatedMeshSceneNodeEmitter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IParticleAttractionAffector.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IParticleBoxEmitter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IParticleCylinderEmitter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IParticleEmitter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IParticleFadeOutAffector.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IParticleGravityAffector.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IParticleMeshEmitter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IParticleRingEmitter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IParticleRotationAffector.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IParticleSphereEmitter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IParticleSystemSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IProfiler.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IQ3LevelMesh.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IQ3Shader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IRandomizer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IReadFile.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IReferenceCounted.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IRenderTarget.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ISceneCollisionManager.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ISceneLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ISceneManager.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ISceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ISceneNodeAnimator.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ISceneNodeAnimatorCameraFPS.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ISceneNodeAnimatorCameraMaya.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ISceneNodeAnimatorCollisionResponse.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ISceneNodeAnimatorFactory.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ISceneNodeFactory.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ISceneUserDataSerializer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IShaderConstantSetCallBack.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IShadowVolumeSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ISkinnedMesh.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ITerrainSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ITextSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ITexture.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ITimer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/ITriangleSelector.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IVertexBuffer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IVideoDriver.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IVideoModeList.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IVolumeLightSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IWriteFile.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IXMLReader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IXMLWriter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IrrCompileConfig.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/IrrlichtDevice.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/Keycodes.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/S3DVertex.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/SAnimatedMesh.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/SColor.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/SExposedVideoData.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/SIrrCreationParameters.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/SKeyMap.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/SLight.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/SMaterial.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/SMaterialLayer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/SMesh.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/SMeshBuffer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/SMeshBufferLightMap.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/SMeshBufferTangents.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/SOverrideMaterial.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/SParticle.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/SSharedMeshBuffer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/SSkinMeshBuffer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/SVertexIndex.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/SVertexManipulator.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/SViewFrustum.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/SceneParameters.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/aabbox3d.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/coreutil.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/dimension2d.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/driverChoice.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/exampleHelper.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/fast_atof.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/heapsort.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/irrAllocator.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/irrArray.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/irrList.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/irrMap.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/irrMath.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/irrString.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/irrTypes.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/irrXML.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/irrlicht.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/irrpack.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/irrunpack.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/leakHunter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/line2d.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/line3d.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/matrix4.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/path.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/plane3d.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/position2d.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/quaternion.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/rect.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/triangle3d.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/vector2d.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include/vector3d.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/BuiltInFont.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/C3DSMeshFileLoader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/C3DSMeshFileLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CAnimatedMeshHalfLife.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CAnimatedMeshHalfLife.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CAnimatedMeshMD2.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CAnimatedMeshMD2.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CAnimatedMeshMD3.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CAnimatedMeshMD3.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CAnimatedMeshSceneNode.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CAnimatedMeshSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CAttributeImpl.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CAttributes.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CAttributes.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CB3DMeshFileLoader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CB3DMeshFileLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CB3DMeshWriter.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CB3DMeshWriter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CBSPMeshFileLoader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CBSPMeshFileLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CBillboardSceneNode.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CBillboardSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CBlit.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CBoneSceneNode.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CBoneSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CBurningShader_Raster_Reference.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CCSMLoader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CCSMLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CCameraSceneNode.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CCameraSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CColladaFileLoader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CColladaFileLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CColladaMeshWriter.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CColladaMeshWriter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CColorConverter.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CColorConverter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CCubeSceneNode.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CCubeSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CD3D9Driver.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CD3D9Driver.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CD3D9HLSLMaterialRenderer.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CD3D9HLSLMaterialRenderer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CD3D9MaterialRenderer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CD3D9NormalMapRenderer.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CD3D9NormalMapRenderer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CD3D9ParallaxMapRenderer.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CD3D9ParallaxMapRenderer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CD3D9RenderTarget.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CD3D9RenderTarget.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CD3D9ShaderMaterialRenderer.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CD3D9ShaderMaterialRenderer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CD3D9Texture.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CD3D9Texture.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CDMFLoader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CDMFLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CDefaultGUIElementFactory.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CDefaultGUIElementFactory.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CDefaultSceneNodeAnimatorFactory.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CDefaultSceneNodeAnimatorFactory.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CDefaultSceneNodeFactory.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CDefaultSceneNodeFactory.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CDepthBuffer.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CDepthBuffer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CDummyTransformationSceneNode.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CDummyTransformationSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CEmptySceneNode.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CEmptySceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CFPSCounter.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CFPSCounter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CFileList.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CFileList.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CFileSystem.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CFileSystem.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGLXManager.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGLXManager.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIButton.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIButton.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUICheckBox.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUICheckBox.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIColorSelectDialog.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIColorSelectDialog.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIComboBox.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIComboBox.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIContextMenu.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIContextMenu.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIEditBox.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIEditBox.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIEnvironment.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIEnvironment.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIFileOpenDialog.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIFileOpenDialog.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIFont.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIFont.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIImage.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIImage.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIImageList.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIImageList.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIInOutFader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIInOutFader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIListBox.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIListBox.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIMenu.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIMenu.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIMeshViewer.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIMeshViewer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIMessageBox.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIMessageBox.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIModalScreen.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIModalScreen.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIProfiler.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIProfiler.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIScrollBar.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIScrollBar.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUISkin.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUISkin.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUISpinBox.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUISpinBox.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUISpriteBank.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUISpriteBank.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIStaticText.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIStaticText.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUITabControl.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUITabControl.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUITable.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUITable.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIToolBar.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIToolBar.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUITreeView.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUITreeView.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIWindow.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGUIWindow.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGeometryCreator.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CGeometryCreator.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImage.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImage.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageLoaderBMP.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageLoaderBMP.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageLoaderDDS.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageLoaderDDS.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageLoaderJPG.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageLoaderJPG.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageLoaderPCX.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageLoaderPCX.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageLoaderPNG.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageLoaderPNG.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageLoaderPPM.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageLoaderPPM.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageLoaderPSD.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageLoaderPSD.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageLoaderPVR.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageLoaderPVR.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageLoaderRGB.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageLoaderRGB.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageLoaderTGA.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageLoaderTGA.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageLoaderWAL.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageLoaderWAL.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageWriterBMP.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageWriterBMP.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageWriterJPG.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageWriterJPG.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageWriterPCX.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageWriterPCX.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageWriterPNG.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageWriterPNG.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageWriterPPM.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageWriterPPM.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageWriterPSD.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageWriterPSD.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageWriterTGA.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CImageWriterTGA.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CIrrDeviceConsole.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CIrrDeviceConsole.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CIrrDeviceFB.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CIrrDeviceFB.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CIrrDeviceLinux.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CIrrDeviceLinux.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CIrrDeviceOSX.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CIrrDeviceSDL.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CIrrDeviceSDL.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CIrrDeviceStub.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CIrrDeviceStub.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CIrrDeviceWin32.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CIrrDeviceWin32.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CIrrMeshFileLoader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CIrrMeshFileLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CIrrMeshWriter.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CIrrMeshWriter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CLMTSMeshFileLoader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CLMTSMeshFileLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CLWOMeshFileLoader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CLWOMeshFileLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CLightSceneNode.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CLightSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CLimitReadFile.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CLimitReadFile.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CLogger.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CLogger.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMD2MeshFileLoader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMD2MeshFileLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMD3MeshFileLoader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMD3MeshFileLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMS3DMeshFileLoader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMS3DMeshFileLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMY3DHelper.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMY3DMeshFileLoader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMY3DMeshFileLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMemoryFile.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMemoryFile.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMeshCache.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMeshCache.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMeshManipulator.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMeshManipulator.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMeshSceneNode.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMeshSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMeshTextureLoader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMeshTextureLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMetaTriangleSelector.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMetaTriangleSelector.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMountPointReader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CMountPointReader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CNPKReader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CNPKReader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CNSOGLManager.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CNullDriver.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CNullDriver.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COBJMeshFileLoader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COBJMeshFileLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COBJMeshWriter.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COBJMeshWriter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COCTLoader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COCTLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COSOperator.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COSOperator.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COctreeSceneNode.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COctreeSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COctreeTriangleSelector.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COctreeTriangleSelector.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COgreMeshFileLoader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COgreMeshFileLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COpenGLCacheHandler.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COpenGLCacheHandler.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COpenGLCommon.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COpenGLCoreCacheHandler.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COpenGLCoreFeature.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COpenGLCoreRenderTarget.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COpenGLCoreTexture.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COpenGLDriver.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COpenGLDriver.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COpenGLExtensionHandler.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COpenGLExtensionHandler.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COpenGLMaterialRenderer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COpenGLNormalMapRenderer.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COpenGLNormalMapRenderer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COpenGLParallaxMapRenderer.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COpenGLParallaxMapRenderer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COpenGLSLMaterialRenderer.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COpenGLSLMaterialRenderer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COpenGLShaderMaterialRenderer.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/COpenGLShaderMaterialRenderer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CPLYMeshFileLoader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CPLYMeshFileLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CPLYMeshWriter.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CPLYMeshWriter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CPakReader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CPakReader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleAnimatedMeshSceneNodeEmitter.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleAnimatedMeshSceneNodeEmitter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleAttractionAffector.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleAttractionAffector.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleBoxEmitter.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleBoxEmitter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleCylinderEmitter.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleCylinderEmitter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleFadeOutAffector.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleFadeOutAffector.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleGravityAffector.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleGravityAffector.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleMeshEmitter.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleMeshEmitter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticlePointEmitter.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticlePointEmitter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleRingEmitter.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleRingEmitter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleRotationAffector.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleRotationAffector.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleScaleAffector.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleScaleAffector.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleSphereEmitter.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleSphereEmitter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleSystemSceneNode.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CParticleSystemSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CProfiler.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CProfiler.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CQ3LevelMesh.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CQ3LevelMesh.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CQuake3ShaderSceneNode.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CQuake3ShaderSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CReadFile.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CReadFile.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSMFMeshFileLoader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSMFMeshFileLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSTLMeshFileLoader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSTLMeshFileLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSTLMeshWriter.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSTLMeshWriter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneCollisionManager.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneCollisionManager.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneLoaderIrr.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneLoaderIrr.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneManager.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneManager.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneNodeAnimatorCameraFPS.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneNodeAnimatorCameraFPS.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneNodeAnimatorCameraMaya.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneNodeAnimatorCameraMaya.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneNodeAnimatorCollisionResponse.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneNodeAnimatorCollisionResponse.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneNodeAnimatorDelete.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneNodeAnimatorDelete.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneNodeAnimatorFlyCircle.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneNodeAnimatorFlyCircle.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneNodeAnimatorFlyStraight.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneNodeAnimatorFlyStraight.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneNodeAnimatorFollowSpline.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneNodeAnimatorFollowSpline.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneNodeAnimatorRotation.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneNodeAnimatorRotation.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneNodeAnimatorTexture.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSceneNodeAnimatorTexture.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CShadowVolumeSceneNode.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CShadowVolumeSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSkinnedMesh.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSkinnedMesh.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSkyBoxSceneNode.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSkyBoxSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSkyDomeSceneNode.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSkyDomeSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSoftware2MaterialRenderer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSoftwareDriver.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSoftwareDriver.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSoftwareDriver2.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSoftwareDriver2.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSoftwareTexture.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSoftwareTexture.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSoftwareTexture2.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSoftwareTexture2.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSphereSceneNode.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CSphereSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRFlat.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRFlatWire.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRGouraud.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRGouraud2.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRGouraudAlpha2.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRGouraudAlphaNoZ2.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRGouraudWire.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRNormalMap.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRStencilShadow.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRTextureBlend.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRTextureDetailMap2.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRTextureFlat.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRTextureFlatWire.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRTextureGouraud.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRTextureGouraud.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRTextureGouraud2.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRTextureGouraudAdd.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRTextureGouraudAdd2.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRTextureGouraudAddNoZ2.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRTextureGouraudAlpha.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRTextureGouraudAlphaNoZ.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRTextureGouraudNoZ.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRTextureGouraudNoZ2.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRTextureGouraudVertexAlpha2.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRTextureGouraudWire.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRTextureLightMap2_Add.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRTextureLightMap2_M1.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRTextureLightMap2_M2.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRTextureLightMap2_M4.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRTextureLightMapGouraud2_M4.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTRTextureWire2.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTarReader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTarReader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTerrainSceneNode.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTerrainSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTerrainTriangleSelector.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTerrainTriangleSelector.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTextSceneNode.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTextSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTimer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTriangleBBSelector.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTriangleBBSelector.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTriangleSelector.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CTriangleSelector.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CVideoModeList.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CVideoModeList.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CVolumeLightSceneNode.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CVolumeLightSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CWADReader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CWADReader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CWGLManager.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CWGLManager.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CWaterSurfaceSceneNode.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CWaterSurfaceSceneNode.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CWriteFile.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CWriteFile.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CXMLReader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CXMLReader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CXMLReaderImpl.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CXMLWriter.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CXMLWriter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CXMeshFileLoader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CXMeshFileLoader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CZBuffer.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CZBuffer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CZipReader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/CZipReader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/EProfileIDs.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/IAttribute.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/IBurningShader.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/IBurningShader.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/IDepthBuffer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/IImagePresenter.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/ISceneNodeAnimatorFinishing.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/ITriangleRenderer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/IZBuffer.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/Irrlicht.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/Octree.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/S2DVertex.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/S4DVertex.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/SB3DStructs.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/SoftwareDriver2_compile_config.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/SoftwareDriver2_helper.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/aesGladman/aes.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/aesGladman/aescrypt.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/aesGladman/aeskey.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/aesGladman/aesopt.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/aesGladman/aestab.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/aesGladman/fileenc.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/aesGladman/fileenc.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/aesGladman/hmac.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/aesGladman/hmac.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/aesGladman/prng.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/aesGladman/prng.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/aesGladman/pwd2key.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/aesGladman/pwd2key.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/aesGladman/sha1.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/aesGladman/sha1.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/aesGladman/sha2.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/aesGladman/sha2.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/bzip2/bzlib.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/bzip2/bzlib_private.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/dmfsupport.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/glext.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/glxext.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/irrXML.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/jpeglib/cderror.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/jpeglib/cdjpeg.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/jpeglib/jconfig.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/jpeglib/jdct.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/jpeglib/jerror.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/jpeglib/jinclude.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/jpeglib/jmemsys.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/jpeglib/jmorecfg.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/jpeglib/jpegint.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/jpeglib/jpeglib.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/jpeglib/jversion.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/jpeglib/transupp.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/leakHunter.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/libpng/png.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/libpng/pngconf.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/libpng/pngdebug.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/libpng/pnginfo.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/libpng/pnglibconf.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/libpng/pngpriv.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/libpng/pngstruct.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/lzma/LzmaDec.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/lzma/Types.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/os.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/os.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/resource.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/utf8.cpp">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/wglext.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/zlib/crc32.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/zlib/deflate.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/zlib/gzguts.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/zlib/inffast.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/zlib/inffixed.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/zlib/inflate.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/zlib/inftrees.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/zlib/trees.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/zlib/zconf.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/zlib/zconf.h.cmakein">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/zlib/zconf.h.in">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/zlib/zlib.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/source/Irrlicht/zlib/zutil.h">
+			<Option target="3DPirrlicht"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/src/main.cpp">
+			<Option target="3DPlatformer"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/src/main.h">
+			<Option target="3DPlatformer"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/finian/Documents/git/3DPlatformer/lib/irrlicht/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\irrlicht\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
