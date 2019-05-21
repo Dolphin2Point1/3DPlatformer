@@ -1,3 +1,0 @@
-/home/finian/Documents/git/3DPlatformer/CMakeFiles/rebuild_cache.dir
-/home/finian/Documents/git/3DPlatformer/CMakeFiles/3DPlatformer.dir
-/home/finian/Documents/git/3DPlatformer/CMakeFiles/edit_cache.dir
