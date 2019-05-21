@@ -33,5 +33,15 @@ int main() {
 
     if (device == 0)
         return 1; // could not create selected driver.
-	return 0;
+    device->setWindowCaption(L"Hello World! - Irrlicht Engine Demo");
+    video::IVideoDriver* driver = device->getVideoDriver();
+    scene::ISceneManager* smgr = device->getSceneManager();
+    gui::IGUIEnvironment* guienv = device->getGUIEnvironment();
+    guienv->addStaticText(L"Hello World! This is the Irrlicht Software renderer!",
+                          core::rect<s32>(10,10,260,22), true);
+    while(device->run()) {
+
+    }
+    device->drop();
+    return 0;
 }
