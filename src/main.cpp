@@ -40,7 +40,8 @@ int main() {
     guienv->addStaticText(L"Hello World! This is the Irrlicht Software renderer!",
                           core::rect<s32>(10,10,260,22), true);
     while(device->run()) {
-
+        driver->beginScene(true, true, video::SColor(255,100,101,140));
+        driver->endScene();
     }
     device->drop();
     return 0;

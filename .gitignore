@@ -1,5 +1,7 @@
 CMakeFiles/
 .idea/
+cmake-build-debug/
 3DPlatformer.cbp
 Makefile
 CMakeCache.txt
+cmake_install.cmake
