@@ -123,19 +123,6 @@ depend:
 	$(MAKE) -f CMakeFiles/3DPlatformer.dir/build.make CMakeFiles/3DPlatformer.dir/build
 .PHONY : 3DPlatformer/fast
 
-#=============================================================================
-# Target rules for targets named 3DPirrlicht
-
-# Build rule for target.
-3DPirrlicht: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 3DPirrlicht
-.PHONY : 3DPirrlicht
-
-# fast build rule for target.
-3DPirrlicht/fast:
-	$(MAKE) -f lib/irrlicht/CMakeFiles/3DPirrlicht.dir/build.make lib/irrlicht/CMakeFiles/3DPirrlicht.dir/build
-.PHONY : 3DPirrlicht/fast
-
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -172,7 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 3DPlatformer"
 	@echo "... edit_cache"
-	@echo "... 3DPirrlicht"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/finian/Documents/git/3DPlatformer/lib/irrlicht/include 
+CXX_INCLUDES = -I/usr/include/irrlicht 
 

@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/3DPlatformer.dir/src/main.cpp.o  -o 3DPlatformer 
+/usr/bin/c++     CMakeFiles/3DPlatformer.dir/src/main.cpp.o  -o 3DPlatformer /usr/lib/x86_64-linux-gnu/libIrrlicht.so 

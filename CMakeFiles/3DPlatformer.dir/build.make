@@ -79,6 +79,7 @@ CMakeFiles/3DPlatformer.dir/src/main.cpp.s: cmake_force
 
 3DPlatformer: CMakeFiles/3DPlatformer.dir/src/main.cpp.o
 3DPlatformer: CMakeFiles/3DPlatformer.dir/build.make
+3DPlatformer: /usr/lib/x86_64-linux-gnu/libIrrlicht.so
 3DPlatformer: CMakeFiles/3DPlatformer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/finian/Documents/git/3DPlatformer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 3DPlatformer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/3DPlatformer.dir/link.txt --verbose=$(VERBOSE)

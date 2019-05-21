@@ -129,6 +129,9 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 // RELWITHDEBINFO builds.
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
+//cmake/modules
+CMAKE_MODULE_PATH:BOOL=OFF
+
 //Path to a program.
 CMAKE_NM:FILEPATH=/usr/bin/nm
 
@@ -223,6 +226,18 @@ Fontconfig_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a library.
 Fontconfig_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libfontconfig.so
+
+//Path to a file.
+IRRLICHT_INCLUDE_DIR:PATH=/usr/include/irrlicht
+
+//Path to a library.
+IRRLICHT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libIrrlicht.so
+
+//Path to irrlicht source directory (optional)
+IRRLICHT_SOURCE_DIR:PATH=
+
+//The directory containing a CMake configuration file for Irrlicht.
+Irrlicht_DIR:PATH=Irrlicht_DIR-NOTFOUND
 
 //Path to a file.
 JPEG_INCLUDE_DIR:PATH=/usr/include
@@ -610,7 +625,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -651,6 +666,8 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Irrlicht
+FIND_PACKAGE_MESSAGE_DETAILS_Irrlicht:INTERNAL=[/usr/lib/x86_64-linux-gnu/libIrrlicht.so][/usr/include/irrlicht][v()]
 //Details about finding JPEG
 FIND_PACKAGE_MESSAGE_DETAILS_JPEG:INTERNAL=[/usr/lib/x86_64-linux-gnu/libjpeg.so][/usr/include][v80()]
 //Details about finding OpenGL
@@ -673,6 +690,10 @@ FREETYPE_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 Fontconfig_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Fontconfig_LIBRARY
 Fontconfig_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: IRRLICHT_INCLUDE_DIR
+IRRLICHT_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: IRRLICHT_LIBRARY
+IRRLICHT_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: JPEG_INCLUDE_DIR
 JPEG_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: JPEG_LIBRARY_DEBUG
