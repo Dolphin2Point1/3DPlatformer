@@ -14,7 +14,6 @@ int main() {
 
     char i;
     std::cin >> i;
-
     switch(i)
     {
         case 'a': driverType = video::EDT_OPENGL;   break;

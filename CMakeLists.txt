@@ -10,3 +10,7 @@ ADD_EXECUTABLE(3DPlatformer ${SRCS})
 find_package(Irrlicht)
 include_directories(${IRRLICHT_INCLUDE_DIR})
 target_link_libraries(3DPlatformer ${IRRLICHT_LIBRARY})
+
+find_package(Bullet)
+include_directories(${BULLET_INCLUDE_DIR})
+link_libraries(${BULLET_LIBRARIES})
