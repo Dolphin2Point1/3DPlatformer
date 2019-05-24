@@ -1,0 +1,8 @@
+[submodule "lib/irrlicht"]
+	path = lib/irrlicht
+	url = git@github.com:Perlmint/irrlicht-cmake.git
+	branch = 1.8
+[submodule "lib/bullet"]
+	path = lib/bullet
+	url = git@github.com:bulletphysics/bullet3.git
+	branch = 2.87
