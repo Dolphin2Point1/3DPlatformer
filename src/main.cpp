@@ -3,6 +3,7 @@
 using namespace irr;
 
 int main() {
+    int Rotatex,Rotatey,Rotatez;
     // ask user for driver
 
     video::E_DRIVER_TYPE driverType;
@@ -26,9 +27,8 @@ int main() {
     }
 
     // create device and exit if creation failed
-
     IrrlichtDevice *device =
-            createDevice(driverType, core::dimension2d<u32>(640, 480));
+            createDevice(driverType, core::dimension2d<u32>(640, 480), 16, false, false, true, 0);
 
     if (device == 0)
         return 1; // could not create selected driver.
@@ -38,8 +38,25 @@ int main() {
     gui::IGUIEnvironment* guienv = device->getGUIEnvironment();
     guienv->addStaticText(L"Hello World! This is the Irrlicht Software renderer!",
                           core::rect<s32>(10,10,260,22), true);
+    scene::IAnimatedMesh* mesh = smgr->getMesh("../assets/box.dae");
+    if(!mesh) {
+        device->drop();
+        return 1;
+    }
+    scene::IAnimatedMeshSceneNode* node = smgr->addAnimatedMeshSceneNode(mesh);
+    if(node) {
+        node->setMaterialFlag(video::EMF_LIGHTING, false);
+        node->setMD2Animation(scene::EMAT_STAND);
+        node->setMaterialTexture(0, driver->getTexture("../assets/box.png"));
+    }
+    smgr->addCameraSceneNode(0, core::vector3df(0,10,0), core::vector3df(0,5,0));
     while(device->run()) {
         driver->beginScene(true, true, video::SColor(255,100,101,140));
+        Rotatex++;
+        node->setRotation(core::vector3df(Rotatex,Rotatey,Rotatez));
+        smgr->drawAll();
+        guienv->drawAll();
+
         driver->endScene();
     }
     device->drop();
