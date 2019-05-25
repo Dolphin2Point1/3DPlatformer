@@ -52,8 +52,7 @@ int main() {
     smgr->addCameraSceneNode(0, core::vector3df(0,10,0), core::vector3df(0,5,0));
     while(device->run()) {
         driver->beginScene(true, true, video::SColor(255,100,101,140));
-        Rotatex++;
-        node->setRotation(core::vector3df(Rotatex,Rotatey,Rotatez));
+        node->setRotation(core::vector3df(node->getRotation().X + 10, node->getRotation().Y + 10,node->getRotation().Z + 10));
         smgr->drawAll();
         guienv->drawAll();
 
