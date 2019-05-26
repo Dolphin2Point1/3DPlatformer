@@ -9,3 +9,6 @@
 [submodule "lib/enet"]
 	path = lib/enet
 	url = git@github.com:DrLynix/enet.git
+[submodule "lib/boost"]
+	path = lib/boost
+	url = git@github.com:boostorg/boost.git
