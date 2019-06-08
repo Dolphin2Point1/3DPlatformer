@@ -7,7 +7,9 @@
 
 
 class model {
-
+public:
+    model();
+    ~model();
 };
 
 
